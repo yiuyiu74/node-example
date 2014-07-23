@@ -1,22 +1,26 @@
 {
-  "name": "node-example",
-  "version": "0.0.0",
-  "description": "Testing of NodeJS with MongoDB in Heroku",
-  "main": "web.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "example",
-    "heroku"
-  ],
-  "author": "Vince Tam",
-  "license": "BSD-2-Clause",
-  "dependencies": {
-    "logfmt": "~1.1.2",
-    "express": "~4.6.1"
-  },
-  "engines": {
-    "node": "0.10.22"
-  }
+	"name": "node-example",
+	"version": "0.0.0",
+	"description": "Testing of NodeJS with MongoDB in Heroku",
+	"main": "web.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yiuyiu74/node-example.git"
+	},
+	"keywords": [
+		"example",
+		"heroku"
+	],
+	"author": "Vince Tam",
+	"license": "BSD-2-Clause",
+	"dependencies": {
+		"logfmt": "~1.1.2",
+		"express": "~4.6.1"
+	},
+	"engines": {
+		"node": "0.10.22"
+	}
 }
